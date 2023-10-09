@@ -1,0 +1,108 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Designs - Rand Rivera</title>	
+	<!-- Link to the relevant stylesheet -->
+  <link href="assets/css/fonts.css" rel="stylesheet">
+	<link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/mainMobile.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/images/rand_favicon.png">
+</head>
+
+<body class="noScrollBar">
+  <div class="nameInput desktopOnly">
+    <span>HI FRIEND!</span>
+    <span> what's your name?</span>
+    <input type="text" id="collectName" onkeydown="search(this)">
+    <button id="enterBtn">enter</button>
+    <!-- <main><canvas></canvas></main> -->
+  </div>
+  
+  <div class="header sticky">
+    {% include header.html %}
+  </div>
+
+  <hr style="margin-bottom: 15px">
+
+
+  <div class="navMobile mobile">
+    {% include navigationMobile.html %}
+  </div>
+  
+  <div class="container">
+    <div class="Nav desktopOnly">
+      {% include navigation.html %}
+    </div> 
+    <main class="Content noScrollBar">
+      <div class="previews" id="target">
+        <a href="/projects/typeoftoday.html">
+            <img src="/assets/images/previews/tot.png">
+        </a>
+        <div class="previewDesc mobile">
+          <span>Type of Today</span>
+          <span>Editorial Design</span>
+        </div>
+        <a href="/projects/tide.html"><img src="/assets/images/previews/homepage_previews-02.gif"></a>
+        <div class="previewDesc mobile">
+          <span>TIDE</span>
+          <span>Web Design/Brand Identity</span>
+        </div>
+        <a href="/projects/columbia-records-refresh.html"><img src="/assets/images/previews/homepage_previews-03.png"></a>
+        <div class="previewDesc mobile">
+          <span>Columbia Records Rebrand</span>
+          <span>Brand Identity</span>
+        </div>
+        <a href="/projects/burnt.html"><img src="/assets/images/previews/burnt.jpeg"></a>
+        <div class="previewDesc mobile">
+          <span>BURNT</span>
+          <span>Brand Identity</span>
+        </div>
+        <!-- <a href="/projects/emoticon.html"><img src="/assets/images/previews/homepage_previews-04.png"></a>
+        <div class="previewDesc mobile">
+          <span>Emoticon</span>
+          <span>Brand Identity</span>
+        </div> -->
+        <a href="/projects/soundboard.html"><img src="/assets/images/previews/canal-issue-2.gif"></a>
+        <div class="previewDesc mobile">
+          <span>CANAL Issue 2</span>
+          <span>Magazine</span>
+        </div>
+        <a href="/projects/talking-2-kewl-ppl.html"><img src="/assets/images/previews/kewl-ppl.png"></a>
+        <div class="previewDesc mobile">
+          <span>Talking 2 Kewl PPL</span>
+          <span>Editorial Design</span>
+        </div>
+        <!-- <a href="/projects/mitosis.html"><img src="/assets/images/previews/homepage_previews-05.png"></a>
+        <div class="previewDesc mobile">
+          <span>MITOSIS</span>
+          <span>Typeface Design</span>
+        </div>
+        <a href="/projects/roadsign-americana.html"><img src="/assets/images/previews/homepage_previews-08.png"></a>
+        <div class="previewDesc mobile">
+          <span>Roadsign Americana</span>
+          <span>Typography/Coding</span>
+        </div> -->
+        <!-- <a href="/projects/legacy.html"><img src="/assets/images/previews/homepage_previews-02.gif"></a>
+        <div class="previewDesc mobile">
+          <span>Legacy</span>
+          <span>Editorial/Brand Identity</span>
+        </div> -->
+      </div>
+    </main>
+  </div>
+
+  
+
+ <div style="text-align: right;">entire site coded by <span style="color:var(--my-variable); transition:.4s;">me!</span> @rkrivera 2023</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.10.1/tsparticles.confetti.bundle.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
